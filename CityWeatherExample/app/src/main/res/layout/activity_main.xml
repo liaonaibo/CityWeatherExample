@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_main_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="城市列表"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/activity_main_rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_tv_title">
+
+        <EditText
+            android:id="@+id/activity_main_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:hint="请输入查询城市名称,如: 北京" />
+
+        <ImageView
+            android:id="@+id/activity_main_iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_search" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/activity_main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_main_rl_search"
+        android:layout_marginTop="6dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1px" />
+
+    <ProgressBar
+        android:id="@+id/activity_main_pb"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+</RelativeLayout>
