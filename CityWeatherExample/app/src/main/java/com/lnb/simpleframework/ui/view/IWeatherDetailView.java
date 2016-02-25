@@ -1,4 +1,4 @@
-package com.lnb.simpleframework.view;
+package com.lnb.simpleframework.ui.view;
 
 import android.content.Intent;
 

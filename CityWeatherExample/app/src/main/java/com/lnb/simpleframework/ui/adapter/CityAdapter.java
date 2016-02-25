@@ -1,4 +1,4 @@
-package com.lnb.simpleframework.ui;
+package com.lnb.simpleframework.ui.adapter;
 
 import android.app.Activity;
 import android.view.View;

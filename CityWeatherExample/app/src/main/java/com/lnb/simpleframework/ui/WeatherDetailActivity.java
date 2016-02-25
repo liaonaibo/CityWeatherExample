@@ -13,7 +13,7 @@ import com.lnb.simpleframework.model.City;
 import com.lnb.simpleframework.presenter.WeatherDetailPresenter;
 
 import com.lnb.simpleframework.model.WeatherDetail;
-import com.lnb.simpleframework.view.IWeatherDetailView;
+import com.lnb.simpleframework.ui.view.IWeatherDetailView;
 
 
 public class WeatherDetailActivity extends FragmentActivity implements IWeatherDetailView ,View.OnClickListener{

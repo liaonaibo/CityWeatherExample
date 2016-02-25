@@ -10,6 +10,6 @@
 	3. 图片下载库 universal-image-loader-1.9.2.jar
 	4. 网络请求库 Volly
 
-![MacDown Screenshot](https://github.com/liaonaibo/resource/blob/master/cityweather/screenshots/city_list.png)
+![列表截图](http://7xr8hr.com1.z0.glb.clouddn.com/city_list.png)
 
-![MacDown Screenshot](https://github.com/liaonaibo/resource/blob/master/cityweather/screenshots/weather_detail.png)
+![详情截图](http://7xr8hr.com1.z0.glb.clouddn.com/weather_detail.png)

@@ -11,7 +11,7 @@ import com.lnb.simpleframework.model.City;
 import com.lnb.simpleframework.model.WeatherDetail;
 import com.lnb.simpleframework.network.NetworkController;
 import com.lnb.simpleframework.network.NetworkRequestListener;
-import com.lnb.simpleframework.view.IWeatherDetailView;
+import com.lnb.simpleframework.ui.view.IWeatherDetailView;
 
 import org.json.JSONObject;
 

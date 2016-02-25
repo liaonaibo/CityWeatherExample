@@ -15,7 +15,8 @@ import android.widget.Toast;
 import com.lnb.simpleframework.R;
 import com.lnb.simpleframework.adapter.binder.BaseResource;
 import com.lnb.simpleframework.presenter.CityListPresenter;
-import com.lnb.simpleframework.view.ICityListView;
+import com.lnb.simpleframework.ui.adapter.CityAdapter;
+import com.lnb.simpleframework.ui.view.ICityListView;
 
 import java.util.List;
 

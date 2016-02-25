@@ -10,7 +10,7 @@ import com.lnb.simpleframework.ui.WeatherDetailActivity;
 import com.lnb.simpleframework.adapter.binder.BaseResource;
 import com.lnb.simpleframework.network.NetworkController;
 import com.lnb.simpleframework.network.NetworkRequestListener;
-import com.lnb.simpleframework.view.ICityListView;
+import com.lnb.simpleframework.ui.view.ICityListView;
 
 import java.util.ArrayList;
 import java.util.List;
